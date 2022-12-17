@@ -1,2 +1,24 @@
-package com.springsecurityclient.Events;public class RegistrationCompleteEvent {
+package com.springsecurityclient.Events;
+
+import com.springsecurityclient.Entities.User;
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.context.ApplicationEvent;
+
+
+@Getter
+@Setter
+public class RegistrationCompleteEvent extends ApplicationEvent
+{
+    private User user;
+    private String applicationUrl;
+
+    public RegistrationCompleteEvent(User user, String applicationUrl)
+    {
+        super(user);
+        this.user=user;
+        this.applicationUrl=applicationUrl;
+
+    }
+
 }
