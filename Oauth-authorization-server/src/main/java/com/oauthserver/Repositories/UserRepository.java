@@ -1,6 +1,6 @@
-package com.springsecurityclient.Repositories;
+package com.oauthserver.Repositories;
 
-import com.springsecurityclient.Entities.User;
+import com.oauthserver.Entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

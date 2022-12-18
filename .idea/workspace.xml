@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="594e8642-58da-4061-a9d8-dd2e48b6604b" name="Changes" comment="">
+    <list default="true" id="594e8642-58da-4061-a9d8-dd2e48b6604b" name="Changes" comment="initil commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/oauthserver/Configs/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/oauthserver/Configs/DefaultSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/oauthserver/Entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/oauthserver/OauthAuthorizationServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/oauthserver/Repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/oauthserver/Services/CustomAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/java/com/oauthserver/Services/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oauth-authorization-server/src/test/java/com/oauthserver/OauthAuthorizationServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Controllers/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Entities/PasswordResetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Models/PasswordModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Repositories/PasswordResetTokenRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Configs/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Configs/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Controllers/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Entities/VerificationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Entities/VerificationToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Events/Listeners/RegistrationCompleteEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Events/Listeners/RegistrationCompleteEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Events/RegistrationCompleteEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Events/RegistrationCompleteEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Models/UserModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Repositories/VerificationTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Repositories/VerificationTokenRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/java/com/springsecurityclient/Services/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-client/src/main/resources/application.yml" afterDir="false" />
@@ -31,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,8 +93,26 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-security-client/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.oauthserver.Repositories" />
+      <recent name="com.oauthserver.Entities" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OauthAuthorizationServerApplication">
+    <configuration name="OauthAuthorizationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Oauth-authorization-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.oauthserver.OauthAuthorizationServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringSecurityClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-security-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springsecurityclient.SpringSecurityClientApplication" />
@@ -98,14 +129,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671290880826</updated>
-      <workItem from="1671290882061" duration="9477000" />
+      <workItem from="1671290882061" duration="21253000" />
     </task>
+    <task id="LOCAL-00001" summary="initil commit">
+      <created>1671308603935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671308603935</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initil commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initil commit" />
   </component>
 </project>

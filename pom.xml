@@ -8,6 +8,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>spring-security-client</module>
+    <module>Oauth-authorization-server</module>
   </modules>
 
 
